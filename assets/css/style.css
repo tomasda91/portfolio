@@ -1,0 +1,265 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    gap: 32px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    height: 88px;
+}
+.navbar{
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #c6c6c6;
+}
+.logo{
+    font-family: fantasy;
+    font-size: 30px;
+}
+.menu-list{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 3px 5px;
+}
+
+.menu-item{
+    color: #000;
+    text-decoration: none;
+    font-weight: 400;
+    margin: 0 5px;
+}
+.mail{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+}
+.mail{
+    color: #0669a5 !important;;
+    text-decoration: dotted !important;
+}
+
+.hero{
+    padding: 0 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.item-1-1 h1{
+    font-size: 2.5em;
+    font-family: system-ui;
+}
+.item-1-1 h3{
+    font-size: 1em;
+    font-family: system-ui;
+}
+.link-menu{
+    list-style: none;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+.link-item{
+    display: flex;
+    margin: 0 20px 0 11px;
+    align-items: center;
+}
+.link-item a{
+    margin: 0 0 0 10px;
+}
+
+.item-1-2 img{
+    border-radius: 100%;
+}
+
+.hero-title{
+    text-align: end;
+    font-size: 2.5em;
+    font-family: system-ui;
+}
+.hero-sobremi p{
+        text-align: end;
+    }
+
+/* skill and hobies section */
+
+#skill, #hobbies{
+    text-align: center;
+    font-size: 2.5em;
+}
+.item-3-1-2, .item-3-2-2{
+    align-items: center;
+    padding: 0 150px;
+    gap: 88px;
+    margin-bottom: 88px;
+}
+
+.img-skill{
+    background-color: #fff;
+    margin:0 15px;
+    width: 176px;
+    height: 174px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 10px;
+    border: solid 2px #2778ae;
+}
+
+.img-skill img{
+    height:20px;
+}
+.img-skill p{
+    margin-left: 8px;
+    margin-bottom: 0;
+}
+
+.item-4{
+    background-color: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 82px;
+    gap: 32px;
+
+}
+
+.hero-form-card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    align-content: flex-start;
+}
+.hero-form-card p{
+    margin: 3px;
+}
+
+
+
+.item-5{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 150px;
+    text-align: center;
+    gap: 50px;
+}
+
+.experiencia-card-content{
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 0 10px 0;
+    border-radius: 18px;
+    border: solid 2px #2778ae;
+    gap: 0px;
+    background-color: #fff;
+}
+
+.experiencia-card-content img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 10px;
+    border-bottom: solid 3px #2778ae;
+}
+
+.hero-form-card h1,h2,h3,h4,h5,i{
+    margin:2px;
+}
+.hero-form-card h4{
+    font-size: 80%;
+}
+.hero-form-card i{
+    font-size: 70%;
+}
+
+.card{
+    background-color: #fff;
+    width: 220px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.card-section{
+    gap: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+.card-section1{
+    gap: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
+}
+.card-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.card-details h1,h2,h3,h4,h5,i{
+    margin:2px;
+}
+.card-details h4{
+    font-size: 80%;
+}
+.card-details i{
+    font-size: 70%;
+}
+
+.card-buttons{
+    width: 100%;
+}
+.btn-primary{
+    width: calc(100% - 40%);
+    height: 30px;
+    background-color: #0669a5;
+    color: #fff;
+    margin: 5px 0;
+    font-weight: 700;
+    border: solid 2px #0669a5;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn1{
+    width: calc(100% - 40%);
+    height: 30px;
+    margin: 5px 0;
+    background-color: #ffffff;
+    color: #0669a5;
+    font-weight: 700;
+    border: solid 1px #0669a5;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.ver{
+    width: 60%;
+    height: 65px;
+    margin: 5px 0;
+    background-color: #ffffff;
+    color: #0669a5;
+    font-weight: 700;
+    border: solid 1px #0669a5;
+    border-radius: 4px;
+    cursor: pointer;
+}
