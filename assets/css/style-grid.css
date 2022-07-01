@@ -15,7 +15,7 @@
   */
 
 
-.item-1 {
+  .item-1 {
     display: grid;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr;
@@ -65,10 +65,70 @@
     grid-area: exp;
     justify-items: center;
 }
-.item-6 {
-    background: #3d8bb1;
-    grid-area: article;
+
+.item-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 45px 0 45px 0;
+    background-color: #2a6998;
+    padding: 45px;
+    text-align: center;
 }
+.item-6-1 h2, h3{
+    color:#fff;
+}
+.item-6 .form {
+    margin-top: 50px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+}
+.item-6-input{
+    height: 50px;
+    width: 50vw;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #3d3d3d;
+}
+.item-6-textarea{
+    width: 50vw;
+    border: solid 1.5px #2a6998;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #3d3d3d;
+}
+.item-6-submit{
+    width: 25vw;
+    height: 50px;
+    background-color: #ffffff00;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 600;
+    border: solid 2px #fff;
+    border-radius: 9px;
+}
+.item-6-submit:hover {
+    width: 25vw;
+    height: 50px;
+    background-color: #fff;
+    color: #2a6998;
+    font-size: 17px;
+    font-weight: 600;
+    border: solid 2px #fff;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+
 .item-7 {
     background: #e03f3f;
     grid-area: sidebar;
