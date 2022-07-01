@@ -291,5 +291,8 @@
         height: 100px!important;
     }
 
+    html {
+    overflow-x:hidden;
+}
 
 }
